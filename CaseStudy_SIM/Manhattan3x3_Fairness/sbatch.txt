@@ -1,0 +1,2 @@
+sbatch -n 400 --time=45:00:00 --mem-per-cpu=1000 --wrap="sh run_manhattan_fairness_50.sh"
+sbatch -n 400 --time=45:00:00 --mem-per-cpu=1000 --wrap="sh run_manhattan_fairness_100.sh"

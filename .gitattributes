@@ -1,0 +1,6 @@
+*.xlsx filter=lfs diff=lfs merge=lfs -text
+*.npy filter=lfs diff=lfs merge=lfs -text
+*.x filter=lfs diff=lfs merge=lfs -text
+CaseStudy_SIM/Manhattan3x3_Fairness/logs/log_fixed_programme_fairness.csv filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text

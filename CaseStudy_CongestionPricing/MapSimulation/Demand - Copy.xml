@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-12-12 08:26:43 by Eclipse SUMO netedit Version 1.19.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+
+    <!-- Routes -->
+    <route id="routeA_1" edges="E31 E12 E0 E10 E1 E11 E2"/>
+    <route id="routeA_2" edges="E32 E12 E0 E10 E1 E11 E2"/>
+    <route id="routeA_3" edges="E33 E12 E0 E10 E1 E11 E2"/>
+    <route id="routeA_4" edges="E34 E13 E0 E10 E1 E11 E2"/>
+    <route id="routeA_5" edges="E35 E13 E0 E10 E1 E11 E2"/>
+    <route id="routeA_6" edges="E36 E13 E0 E10 E1 E11 E2"/>
+	
+    <route id="routeB_1" edges="E25 E4 E0 E6 E7 E3 E8 E9 E2"/>
+    <route id="routeB_2" edges="E26 E4 E0 E6 E7 E3 E8 E9 E2"/>
+    <route id="routeB_3" edges="E27 E4 E0 E6 E7 E3 E8 E9 E2"/>
+    <route id="routeB_4" edges="E28 E5 E0 E6 E7 E3 E8 E9 E2"/>
+    <route id="routeB_5" edges="E29 E5 E0 E6 E7 E3 E8 E9 E2"/>
+    <route id="routeB_6" edges="E30 E5 E0 E6 E7 E3 E8 E9 E2"/>
+	
+	
+	<!-- Flows -->
+
+	<flow id="f_011" type="DEFAULT_TAXITYPE" begin="0" end= "1000" period="1" route="routeA_1" />	
+	<flow id="f_012" type="DEFAULT_TAXITYPE" begin="0" end= "1000" period="1" route="routeA_2" />
+	<flow id="f_013" type="DEFAULT_TAXITYPE" begin="0" end= "1000" period="1" route="routeA_3" />
+	<flow id="f_014" type="DEFAULT_TAXITYPE" begin="0" end= "1000" period="1" route="routeA_4" />
+	<flow id="f_015" type="DEFAULT_TAXITYPE" begin="0" end= "1000" period="1" route="routeA_5" />
+	<flow id="f_016" type="DEFAULT_TAXITYPE" begin="0" end= "1000" period="1" route="routeA_6" />
+	
+	<flow id="f_021" type="DEFAULT_TAXITYPE" begin="0" end= "1000" period="1" route="routeB_1" />	
+	<flow id="f_022" type="DEFAULT_TAXITYPE" begin="0" end= "1000" period="1" route="routeB_2" />
+	<flow id="f_023" type="DEFAULT_TAXITYPE" begin="0" end= "1000" period="1" route="routeB_3" />
+	<flow id="f_024" type="DEFAULT_TAXITYPE" begin="0" end= "1000" period="1" route="routeB_4" />
+	<flow id="f_025" type="DEFAULT_TAXITYPE" begin="0" end= "1000" period="1" route="routeB_5" />
+	<flow id="f_026" type="DEFAULT_TAXITYPE" begin="0" end= "1000" period="1" route="routeB_6" />
+
+</routes>
